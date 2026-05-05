@@ -63,6 +63,7 @@
                       mountOptions = [
                         "rw"
                         "relatime"
+                        "x-systemd.device-timeout=infinity"
                         "ssd"
                       ];
                     };

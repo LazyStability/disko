@@ -37,6 +37,7 @@
                       mountpoint = "/";
                       mountOptions = [
                         "compress=zstd"
+                        "x-systemd.device-timeout=infinity"
                         "noatime"
                       ];
                     };
